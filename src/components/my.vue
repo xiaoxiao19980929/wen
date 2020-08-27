@@ -133,6 +133,10 @@ import { Header } from 'mint-ui';
 </script>
 
 <style scoped>
+body{
+width:100%;
+overflow-x:hidden;
+}
     .mtheader{
         background-color: white;
         font-size:16px;
