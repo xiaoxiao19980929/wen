@@ -222,12 +222,10 @@ main{
 }
 
 .center{
-	background-color:#eeeeee;
-	height:6vh;
-	width:100%;
-    font-size:16px
-
-
+	background-color: #eeeeee;
+    height: 11vh;
+    width: 100%;
+    font-size: 16px;
 }
 .center span{
 	background-color:red;
@@ -237,20 +235,18 @@ main{
     margin-right: 5%;
 }
 .one{
-        height: 80vh;
-        width: 100%;
-        background-color: #fff;
+    height: 100vh;
+    width: 100%;
+    background-color: #fff;
     }
 .l1{
-      width:100%;
-        height: 25%;
-        float: left;
-        border-width: 0 0 1px 0;
-
-        border-style: solid;
-
-        border-color: #eeeeee;
-        margin:10px 0px;
+    width: 100%;
+    height: 22%;
+    float: left;
+    border-width: 0 0 1px 0;
+    border-style: solid;
+    border-color: #eeeeee;
+    margin: 10px 0px;
 
     }
  .left{
@@ -310,8 +306,8 @@ main{
 .h0{
     width: 100%;
     height: 78px;
-    position:fixed;
-    bottom: 65px;
+    position: fixed;
+    bottom: 56px;
     background-color: #eeeeee;
 }
 .h1{
