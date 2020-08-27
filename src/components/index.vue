@@ -78,14 +78,12 @@
                <p class="two">查看更多<span class="two_one"><img src="../assets/image/jt.png" alt=""></span></p>
            </div>
            <section>
-               <div>
-                   <ul class="u2">
-                        <li v-for="(item,index) in list2" @click="change(item,index)" :class="{current:num==index}">
-                            <h1 :class="{current:num==index}">{{item.con}}</h1>
-                            <p :class="{current1:num==index}">{{item.xcon}}</p>
-                        </li>
-                    </ul>
-               </div>
+                <ul class="u2">
+                    <li v-for="(item,index) in list2" @click="change(item,index)" :class="{current:num==index}">
+                        <h1 :class="{current:num==index}">{{item.con}}</h1>
+                        <p :class="{current1:num==index}">{{item.xcon}}</p>
+                    </li>
+                </ul>
            </section>
            <main>
                <div id="din">
@@ -409,7 +407,7 @@
         width: 23px;
         height: 21px;
         position: absolute;
-        top: 76px;
+        top: 65px;
         left: 27px;
     }
     .a1{
@@ -418,7 +416,7 @@
         color: white;
     }
     .it{
-        width: 75%;
+        width: 68%;
         height: 40px;
         margin-left:20px;
         border-radius: 15px;
@@ -436,10 +434,9 @@
     }
     .i1{
         float: left;
-        width: 30%;
-        margin: 2% auto;
-        line-height: 20px;
-        margin-right: 20px;
+        width: 20%;
+        margin-top: 25px;
+        margin-right: 12px;
     }
     .p1{
         line-height: 70px;
@@ -510,7 +507,8 @@
     }
     .left{
         float: left;
-        margin-right: -60px;
+        margin-left: 2%;
+        margin-right: -86px;
     }
     .right{
         font-size:16px;
@@ -538,7 +536,7 @@
         height: 484px;
     }
     .one{
-        height: 416px;
+        height: 86%;
     }
     .one img{
         width: 50%;
@@ -553,18 +551,20 @@
     }
     section{
         width: 100%;
-        height: 76px;
+        height: 60px;
         background-color: #eeeeee;
         overflow: auto;
     }
     .u2{
-        width: 177vw;
-        margin-top: 12px;
+        width: 144%;
+        height: 56px;
+        margin-top: 6px;
         overflow: auto;
+        overflow-y: hidden;
     }
     .u2 li{
         font-size: 16px;
-        margin-left: 4%;
+        margin-left: 1%;
         margin-right: 2%;
         height: 60px;
         text-align: center;
@@ -596,6 +596,7 @@
     #din img{
         margin-top: 15px;
         margin-bottom: 10px;
+        width: 90%;
     }
     #din p{
         display: -webkit-box;
