@@ -253,6 +253,10 @@
 	padding:0px;
 	list-style:none;
 }
+body{
+width:100%;
+overflow-x:hidden;
+}
 main{
     height: 200vh;
 }
