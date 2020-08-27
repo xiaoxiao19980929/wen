@@ -253,10 +253,6 @@
 	padding:0px;
 	list-style:none;
 }
-body{
-width:100%;
-overflow-x:hidden;
-}
 main{
     height: 200vh;
 }
@@ -375,8 +371,8 @@ h5{
 }
 .left{
         float: left;
-        margin-left: 5%;
-        margin-right: -80px;
+        margin-left: 2%;
+        margin-right: -96px;
     }
     .right{
         font-size:16px;
@@ -418,7 +414,8 @@ h5{
         height: 132vh;
     }
     .one{
-        height: 132vh;
+        height: 200%;
+        overflow: hidden;
     }
 	.one li{
 		width: 100%;
