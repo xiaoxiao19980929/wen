@@ -133,9 +133,9 @@ import { Header } from 'mint-ui';
 </script>
 
 <style scoped>
-body{
-width:100%;
-overflow-x:hidden;
+main{
+    width: 100%;
+    overflow: hidden;
 }
     .mtheader{
         background-color: white;
@@ -162,8 +162,6 @@ overflow-x:hidden;
         text-align: center;
         height: 84px;
         background-color: #ffffff;
-        position: fixed;
-        top: 150px;
     }
     .myy div{
         float: left;
@@ -203,8 +201,6 @@ overflow-x:hidden;
         margin-bottom: 2%;
         height: 140px;
         background-color: #ffffff;
-        position: fixed;
-        top: 240px;
     }
     .d4 i{
         font-style: normal;
@@ -241,8 +237,6 @@ overflow-x:hidden;
         margin-right: 5%;
         margin-bottom: 5%;
         background-color: #ffffff;
-        position: fixed;
-        top: 388px;
     }
     .d3 ul{
         margin-bottom: 5%;
@@ -271,7 +265,9 @@ overflow-x:hidden;
     }
     .d5{
         background-color: #eeeeee;
-        height: 500px;
+    }
+    .d6{
+      height:70px;
     }
     .footer{
         width: 100%;
