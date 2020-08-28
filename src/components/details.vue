@@ -42,8 +42,8 @@
     </div>
 
   <div class="huikui">
-    <li class="ter">❤文轩图书惠</li>
-    <li class="foo">❤老客户回馈，积分换礼券，购书更实惠?大陆非新疆西藏地区包邮，新疆西藏运费每单20元</li>
+    <li class="ter">?文轩图书惠</li>
+    <li class="foo">?老客户回馈，积分换礼券，购书更实惠?大陆非新疆西藏地区包邮，新疆西藏运费每单20元</li>
    </div>  
 </div>
 
@@ -87,7 +87,7 @@
 <div class="jio">
 	<ul>
 	   <li> <img src="../assets/image/shouye.png" alt=""><br>首页</li>
-	   <li>&nbsp&nbsp❤<br>收藏</li>
+	   <li>&nbsp&nbsp?<br>收藏</li>
 	   <li> <img src="../assets/image/gouwuche.png" alt=""><br>购物车</li>
 	</ul>
 	
@@ -216,10 +216,10 @@ p>img{
 	line-height:20px;
 }
 .footer{
-	padding-top:10px;
-	background-color:#fbfbfb;
-	height:15vh;
-	border-bottom:4px #eeeeee solid;
+	padding-top: 10px;
+    background-color: #fbfbfb;
+    height: 28vh;
+    border-bottom: 4px solid #eee;
 
 }
 .footer>p{
@@ -255,10 +255,10 @@ p>img{
 	float:left;
 }
 .shuliang{
-    height:5vh;
-	border-bottom:4px #eeeeee solid;
-	padding-top:5px;
-	padding-left:10px;
+    height: 8vh;
+    border-bottom: 4px solid #eee;
+    padding-top: 5px;
+    padding-left: 10px;
 
 }
 .shuliang span{
@@ -327,7 +327,7 @@ margin-top:10px;
 	padding-left:10px;
 	padding-top:10px;
 	padding-right:10px;
-    height: 50vh;
+    height: 80vh;
 }
 .shengming h2{
 	font-weight:bold;
@@ -369,11 +369,11 @@ margin-top:10px;
     right:0px;
 }
 .jio{
-	height:6vh;
-    position:fixed;
-    bottom:1vh;
-    background-color:#ffffff;
-    width:60%;
+	height: 10vh;
+    position: fixed;
+    bottom: -3vh;
+    background-color: #fff;
+    width: 50%;
 }
 .jio li{
 	width:20%;
