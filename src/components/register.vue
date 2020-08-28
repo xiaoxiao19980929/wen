@@ -66,11 +66,11 @@
         border-bottom: 1px solid gray;
     }
     .d22 span{
-        position: absolute;
-        right: 22px;
-        bottom: 424px;
-        font-size:20px;
-        color: black;
+        position:relative;
+        right: -204px;
+        bottom: 54px;
+        font-size: 20px;
+        color: #000;
     }
     .register{
         width: 90%;
