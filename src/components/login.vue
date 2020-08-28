@@ -77,10 +77,10 @@
         border-bottom: 1px solid gray;
     }
     .d3 span{
-        position: absolute;
-        right: -146px;
-        bottom: 348px;
-        font-size:20px;
+        position: relative;
+        right: -174px;
+        bottom: 48px;
+        font-size: 20px;
         color: gray;
     }
     .d3 span img{
